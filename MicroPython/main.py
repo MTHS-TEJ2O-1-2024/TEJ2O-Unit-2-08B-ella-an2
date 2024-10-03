@@ -15,7 +15,7 @@ while True:
         pin13.write_digital(1)
         pin14.write_digital(0)
         pin15.write_digital(0)
-        display("Blue")
+        display.scroll("Blue")
         pin13.write_digital(0)
 
         time(1)
@@ -23,15 +23,15 @@ while True:
         pin14.write_digital(1)
         pin13.write_digital(0)
         pin15.write_digital(0)
-        display("Green")
+        display.scroll("Green")
         pin14.write_digital(0)
-        
+
         time(1)
 
         pin15.write_digital(1)
         pin14.write_digital(0)
         pin13.write_digital(0)
-        display("Red")
+        display.scroll("Red")
         pin15.write_digital(0)
 
         time(1)
@@ -39,7 +39,7 @@ while True:
         pin14.write_digital(1)
         pin15.write_digital(1)
         pin13.write_digital(0)
-        display("Yellow")
+        display.scroll("Yellow")
         pin14.write_digital(0)
         pin15.write_digital(0)
 
@@ -48,7 +48,7 @@ while True:
         pin15.write_digital(1)
         pin13.write_digital(1)
         pin14.write_digital(0)
-        display("Purple")
+        display.scroll("Purple")
         pin15.write_digital(0)
         pin13.write_digital(0)
 
@@ -57,7 +57,7 @@ while True:
         pin14.write_digital(1)
         pin13.write_digital(1)
         pin15.write_digital(0)
-        display("Cyan")
+        display.scroll("Cyan")
         pin14.write_digital(0)
         pin13.write_digital(0)
 
@@ -66,7 +66,7 @@ while True:
         pin14.write_digital(1)
         pin13.write_digital(1)
         pin15.write_digital(1)
-        display("White")
+        display.scroll("White")
         pin14.write_digital(0)
         pin13.write_digital(0)
         pin15.write_digital(0)
