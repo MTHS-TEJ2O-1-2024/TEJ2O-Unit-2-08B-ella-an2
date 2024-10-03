@@ -9,6 +9,7 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
+//Blue
     pins.digitalWritePin(DigitalPin.P13, 1)
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
@@ -17,6 +18,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//Green
     pins.digitalWritePin(DigitalPin.P14, 1)
     pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
@@ -25,6 +27,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//Red
     pins.digitalWritePin(DigitalPin.P15, 1)
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P13, 0)
@@ -33,6 +36,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//Yellow
     pins.digitalWritePin(DigitalPin.P15, 1)
     pins.digitalWritePin(DigitalPin.P14, 1)
     pins.digitalWritePin(DigitalPin.P13, 0)
@@ -42,6 +46,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//Purple
     pins.digitalWritePin(DigitalPin.P15, 1)
     pins.digitalWritePin(DigitalPin.P13, 1)
     pins.digitalWritePin(DigitalPin.P14, 0)
@@ -51,6 +56,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//Cyan
     pins.digitalWritePin(DigitalPin.P14, 1)
     pins.digitalWritePin(DigitalPin.P13, 1)
     pins.digitalWritePin(DigitalPin.P15, 0)
@@ -60,6 +66,7 @@ input.onButtonPressed(Button.A, function () {
 
     pause(1)
 
+//White
     pins.digitalWritePin(DigitalPin.P14, 1)
     pins.digitalWritePin(DigitalPin.P13, 1)
     pins.digitalWritePin(DigitalPin.P15, 1)
@@ -67,6 +74,7 @@ input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
+
 
     pause(1)
     basic.showIcon(IconNames.Happy)
