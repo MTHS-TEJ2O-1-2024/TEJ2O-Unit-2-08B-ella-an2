@@ -14,6 +14,7 @@ while True:
     if button_a.is_pressed():
         pin13.write_digital(1)
         pin14.write_digital(0)
+        pin15.write_digital(0)
         display("Blue")
         pin13.write_digital(0)
 
@@ -64,7 +65,7 @@ while True:
 
         pin14.write_digital(1)
         pin13.write_digital(1)
-        pin15.write_digital(0)
+        pin15.write_digital(1)
         display("White")
         pin14.write_digital(0)
         pin13.write_digital(0)
