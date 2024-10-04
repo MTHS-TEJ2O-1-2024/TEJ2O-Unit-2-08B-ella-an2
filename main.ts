@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Blue")
     pins.digitalWritePin(DigitalPin.P13, 0)
 
-    pause(1)
+    basic.pause(1000)
 
 //Green
     pins.digitalWritePin(DigitalPin.P14, 1)
@@ -25,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Green")
     pins.digitalWritePin(DigitalPin.P14, 0)
 
-    pause(1)
+    basic.pause(1000)
 
 //Red
     pins.digitalWritePin(DigitalPin.P15, 1)
@@ -34,7 +34,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Red")
     pins.digitalWritePin(DigitalPin.P15, 0)
 
-    pause(1)
+    basic.pause(1000)
 
 //Yellow
     pins.digitalWritePin(DigitalPin.P15, 1)
@@ -44,7 +44,7 @@ input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P15, 0)
     pins.digitalWritePin(DigitalPin.P14, 0)
 
-    pause(1)
+    basic.pause(1000)
 
 //Purple
     pins.digitalWritePin(DigitalPin.P15, 1)
@@ -54,7 +54,7 @@ input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P15, 0)
     pins.digitalWritePin(DigitalPin.P13, 0)
 
-    pause(1)
+    basic.pause(1000)
 
 //Cyan
     pins.digitalWritePin(DigitalPin.P14, 1)
@@ -75,7 +75,3 @@ input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P13, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
 
-
-    pause(1)
-    basic.showIcon(IconNames.Happy)
-})
