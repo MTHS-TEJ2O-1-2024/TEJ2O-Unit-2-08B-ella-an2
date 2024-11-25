@@ -18,7 +18,7 @@ while True:
         display.scroll("Blue")
         pin13.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin14.write_digital(1)
         pin13.write_digital(0)
@@ -26,7 +26,7 @@ while True:
         display.scroll("Green")
         pin14.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin15.write_digital(1)
         pin14.write_digital(0)
@@ -34,7 +34,7 @@ while True:
         display.scroll("Red")
         pin15.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin14.write_digital(1)
         pin15.write_digital(1)
@@ -43,7 +43,7 @@ while True:
         pin14.write_digital(0)
         pin15.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin15.write_digital(1)
         pin13.write_digital(1)
@@ -52,7 +52,7 @@ while True:
         pin15.write_digital(0)
         pin13.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin14.write_digital(1)
         pin13.write_digital(1)
@@ -61,7 +61,7 @@ while True:
         pin14.write_digital(0)
         pin13.write_digital(0)
 
-        time(1)
+        sleep(1)
 
         pin14.write_digital(1)
         pin13.write_digital(1)
@@ -71,5 +71,5 @@ while True:
         pin13.write_digital(0)
         pin15.write_digital(0)
 
-        time(1)
+        sleep(1)
         display.show(Image.HAPPY)
